@@ -1,0 +1,10 @@
+@echo off
+del *.obj
+del *.map
+del *.com
+del bootall.dat
+del mbr.dat
+del bootall.asm
+del tools.asm
+del config.exe
+del save.exe

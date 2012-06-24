@@ -1,0 +1,35 @@
+README for BOOTALL 97
+-------------------------------------------------------------------------------
+
+Welcome to the readme of BOOTALL 97
+
+What is BOOTALL?
+BOOTALL is a boot manager for pc harddisks. It can boot nearly every operation
+system from primary AND logical partitions.
+
+Why BOOTALL, OS/2 Boot Manager does the same?
+BOOTALL does not need his own partition. OS/2 occupies one socket in the master
+boot record, so that you only can add 3 more partitions. BOOTALL is stored in
+the remaining sectors of track 0 head 0. This area is normally not used by any
+partition. OS/2 Boot Manager needs at least 2 MB of memory. BOOTALL needs 2 KB 
+on your harddisk.
+
+How to install BOOTALL?
+The program CONFIG.EXE is used to install and configure BOOTALL. To be sure 
+nothing is damaged you should make a backup of your harddisk before
+installing BOOTALL. At least you should save your master boot record on disk
+to restore it after an accident.
+
+Adding partitions to the menu?
+When you want to change the existing partitions (add, remove, etc.). You should
+run CONFIG.EXE again and modify the entries.
+
+Contact to the author?
+At the bottom of this file there is an EMail address.
+
+WE'RE NOT RESPONSIBLE FOR ANY DAMAGES CAUSED BY OUR SOFTWARE. THE USE OF THIS 
+SOFTWARE IS ON YOUR OWN RISK.
+
+-------------------------------------------------------------------------------
+(c) by 1Stein-Software 1997-98                            EMail: 1Stein@gmx.de
+                  Visit us at: http://1Stein.home.pages.de
